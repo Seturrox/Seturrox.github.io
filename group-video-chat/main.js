@@ -1,6 +1,6 @@
 const APP_ID = "479aab8c5bef47e8ad2caf06d6483dbb"
-const TOKEN = "007eJxTYHBi/qp1Tvi2XJTd5ut+dxYsPMh3uJL/h9WnudNenn751+miAoOJuWViYpJFsmlSapqJeapFYopRcmKagVmKmYmFcUpS0sw5dzIaAhkZfh1cysAIhSA+K0NYfnJiDgMDAF4yJFo="
-const CHANNEL = "Vocal"
+const TOKEN = "007eJxTYBB+YHCko2h2+7O3JuWn4wKzoppfsT9Qeff5K9sUmbqG2X4KDCbmlomJSRbJpkmpaSbmqRaJKUbJiWkGZilmJhbGKUlJl6rvZjQEMjK0s3kyMTJAIIjPylCWn5yYw8AAAPubIcw="
+const CHANNEL = "vocal"
 
 const client = AgoraRTC.createClient({mode:'rtc', codec:'vp8'})
 
@@ -100,4 +100,5 @@ let toggleCamera = async (e) => {
 document.getElementById('join-btn').addEventListener('click', joinStream)
 document.getElementById('leave-btn').addEventListener('click', leaveAndRemoveLocalStream)
 document.getElementById('mic-btn').addEventListener('click', toggleMic)
+
 document.getElementById('camera-btn').addEventListener('click', toggleCamera)
