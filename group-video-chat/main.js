@@ -1,5 +1,5 @@
 const APP_ID = "479aab8c5bef47e8ad2caf06d6483dbb"
-const TOKEN = "007eJxTYEj9tIXx9afvJzjr5zWulz0kJLp6/qk8ORFxTeO+D9WcrDYKDCbmlomJSRbJpkmpaSbmqRaJKUbJiWkGZilmJhbGKUlJP1KMMhsCGRlcC34yMjJAIIjPyhCWn5yYw8AAAGQUH6w="
+const TOKEN = "007eJxTYLjIHsV7vXx6+//G23Xfp0yITU1r8Xni+n4qz/X/CWqGqY0KDCbmlomJSRbJpkmpaSbmqRaJKUbJiWkGZilmJhbGKUlJTmlGmQ2BjAwM/2azMjJAIIjPylCWn5yYw8AAAO4RIVw="
 const CHANNEL = "vocal"
 
 const client = AgoraRTC.createClient({mode:'rtc', codec:'vp8'})
@@ -102,5 +102,6 @@ document.getElementById('leave-btn').addEventListener('click', leaveAndRemoveLoc
 document.getElementById('mic-btn').addEventListener('click', toggleMic)
 
 document.getElementById('camera-btn').addEventListener('click', toggleCamera)
+
 
 
